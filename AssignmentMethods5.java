@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class AssignmentMethods5 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.print("Please enter any number: ");
+		// Scan a two digit number and print the sum of its digits
+		System.out.print("Please enter any two digit number: ");
 		Scanner i = new Scanner(System.in);
 		int a = i.nextInt();
 		if(a < 10 || a >= 99) {
